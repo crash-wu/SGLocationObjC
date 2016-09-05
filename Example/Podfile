@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SGLocationObjC_Example' do
+  pod 'SGLocationObjC', :path => '../'
+
+  target 'SGLocationObjC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
