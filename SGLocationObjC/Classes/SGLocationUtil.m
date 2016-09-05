@@ -56,7 +56,7 @@
  *
  *  @return 定位服务对象
  */
-+(instancetype)sharedInstance{
++(nonnull instancetype)sharedInstance{
     
     static SGLocationUtil *instance = nil;
     static dispatch_once_t onceToken;

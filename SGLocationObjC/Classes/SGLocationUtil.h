@@ -26,7 +26,7 @@
  *
  *  @return 定位服务对象
  */
-+(instancetype)sharedInstance;
++(nonnull instancetype)sharedInstance;
 
 /**
  *  @author crash         crash_wu@163.com   , 16-09-05 16:09:31
