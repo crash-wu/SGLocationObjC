@@ -7,6 +7,8 @@
 //
 
 @import UIKit;
+@import SGLocationObjC;
+@import SGTileLayer;
 
 @interface SGAppDelegate : UIResponder <UIApplicationDelegate>
 

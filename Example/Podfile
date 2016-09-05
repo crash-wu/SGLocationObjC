@@ -1,11 +1,7 @@
 use_frameworks!
 
 target 'SGLocationObjC_Example' do
-  pod 'SGLocationObjC', :path => '../'
+  pod 'SGLocationObjC', :path => '../SGLocationObjC.podspec'
+  pod 'SGTileLayer','~> 0.0.4'
 
-  target 'SGLocationObjC_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

@@ -1,0 +1,6 @@
+framework module SGLocationObjC {
+  umbrella header "SGLocationObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

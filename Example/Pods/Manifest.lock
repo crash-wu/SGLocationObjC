@@ -1,0 +1,19 @@
+PODS:
+  - SGLocationObjC (0.1.0)
+  - SGTileLayer (0.0.4)
+
+DEPENDENCIES:
+  - SGLocationObjC (from `../SGLocationObjC.podspec`)
+  - SGTileLayer (~> 0.0.4)
+
+EXTERNAL SOURCES:
+  SGLocationObjC:
+    :path: ../SGLocationObjC.podspec
+
+SPEC CHECKSUMS:
+  SGLocationObjC: 8266056b011473136d7243f5af1558effb7213df
+  SGTileLayer: 13d2b0b0af10b3b7671699292133fb481d3ce4eb
+
+PODFILE CHECKSUM: 72cad270cfd3db7dc5ac131c7bfc479e2e8e9525
+
+COCOAPODS: 1.0.1

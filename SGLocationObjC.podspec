@@ -39,4 +39,15 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+    s.xcconfig = {
+
+    "FRAMEWORK_SEARCH_PATHS" => "$(HOME)/Library/SDKs/ArcGIS/iOS" ,
+    "OTHER_LDFLAGS"  => '-lObjC -framework ArcGIS -l c++',
+
+    'ENABLE_BITCODE' => 'NO',
+    'CLANG_ENABLE_MODULES' => 'YES'
+
+    }
+
 end

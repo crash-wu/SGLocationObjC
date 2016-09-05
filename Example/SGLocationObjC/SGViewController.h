@@ -7,7 +7,12 @@
 //
 
 @import UIKit;
+@import ArcGIS;
+@import SGLocationObjC;
+@import SGTileLayer;
 
 @interface SGViewController : UIViewController
 
+@property(nonatomic,strong) AGSMapView *mapView;
+@property(nonatomic,strong) UIButton *locationBtn;
 @end
