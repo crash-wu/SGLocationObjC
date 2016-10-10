@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EnumType.h"
+
 //#import <ArcGIS/ArcGIS.h>
 @import ArcGIS;
 
@@ -36,7 +38,7 @@
  *  @param mapView   地图
  *  @param imageName 图标名称
  */
--(void)getUserLocation:(nonnull AGSMapView *)mapView andSymbolImage:(nonnull NSString *)imageName;
+-(void)getUserLocation:(nonnull AGSMapView *)mapView andSymbolImage:(nonnull NSString *)imageName ;
 
 /**
  *  @author crash         crash_wu@163.com   , 16-09-05 16:09:29

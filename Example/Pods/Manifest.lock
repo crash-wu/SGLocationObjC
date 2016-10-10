@@ -1,5 +1,5 @@
 PODS:
-  - SGLocationObjC (0.1.0)
+  - SGLocationObjC (0.0.1)
   - SGTileLayer (0.0.4)
 
 DEPENDENCIES:
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../SGLocationObjC.podspec
 
 SPEC CHECKSUMS:
-  SGLocationObjC: 8266056b011473136d7243f5af1558effb7213df
+  SGLocationObjC: 7d74d60afc5ffc989a3eba706c975d8453c78791
   SGTileLayer: 13d2b0b0af10b3b7671699292133fb481d3ce4eb
 
 PODFILE CHECKSUM: 72cad270cfd3db7dc5ac131c7bfc479e2e8e9525

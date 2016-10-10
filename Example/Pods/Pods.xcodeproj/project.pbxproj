@@ -40,6 +40,8 @@
 		90721C46BF0FE4706E075AC28C740A3A /* SouthgisBaseTiledServiceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 199E9981692F311224DA31B77185756B /* SouthgisBaseTiledServiceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95F69C6525F06CC1C1919E59D6517BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		98C8C9C7B488561E09878B4E09416EAC /* Southgis_WMTSLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4582FCE9B6EEF3596CBCD516E34CA8 /* Southgis_WMTSLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98DB10F71DAB316C00BCF6A1 /* EnumType.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DB10F51DAB316C00BCF6A1 /* EnumType.h */; };
+		98DB10F81DAB316C00BCF6A1 /* EnumType.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DB10F61DAB316C00BCF6A1 /* EnumType.m */; };
 		99D573E5AFF4E1A2454FAF08911CC132 /* Southgis_BdWMTSLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EEDC790FB8B28F41786173B3C3D371 /* Southgis_BdWMTSLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DF6D8C52B01588CDB256964FE6CB24C /* SGSWMTSLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B785D9FF25FCD999466218CE65766D /* SGSWMTSLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E7EDFAF0274B936892751FC9BC00A6F /* SouthgisTdtType.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CB3496AC66B6ACEAAE2CF5A0EB7BA5 /* SouthgisTdtType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -126,6 +128,8 @@
 		8E845055865FE9B75CB75C8E7E6B655E /* Southgis_TiledServiceLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_TiledServiceLayer.m; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayer.m; sourceTree = "<group>"; };
 		9032757EC0518E91C0A556EBEB68249F /* SGLocationObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGLocationObjC-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98DB10F51DAB316C00BCF6A1 /* EnumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumType.h; sourceTree = "<group>"; };
+		98DB10F61DAB316C00BCF6A1 /* EnumType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnumType.m; sourceTree = "<group>"; };
 		9BF64D3BBB70D69D00893C95253DE288 /* SGTileLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGTileLayer-prefix.pch"; sourceTree = "<group>"; };
 		9CA099C485BB3FA4437CC9047B2BC316 /* SGTileLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGTileLayer-umbrella.h"; sourceTree = "<group>"; };
 		A2B8FE7CD4EF314C78FCC674278D2B68 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h"; path = "SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h"; sourceTree = "<group>"; };
@@ -305,6 +309,8 @@
 			children = (
 				6C035095A80ADD7F15169517460917FD /* SGLocationUtil.h */,
 				F8B8E88AF1EB1085A302116D5967A330 /* SGLocationUtil.m */,
+				98DB10F51DAB316C00BCF6A1 /* EnumType.h */,
+				98DB10F61DAB316C00BCF6A1 /* EnumType.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -380,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C843553680D6BA8B8A0BB2799C009C9B /* Pods-SGLocationObjC_Example-umbrella.h in Headers */,
+				98DB10F71DAB316C00BCF6A1 /* EnumType.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DB10F81DAB316C00BCF6A1 /* EnumType.m in Sources */,
 				E82846C87AD0D42F01C28380C928358D /* Pods-SGLocationObjC_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

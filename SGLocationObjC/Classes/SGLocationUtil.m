@@ -105,7 +105,7 @@
  *  @param mapView   地图
  *  @param imageName 图标名称
  */
--(void)getUserLocation:(nonnull AGSMapView *)mapView andSymbolImage:(nonnull NSString *)imageName{
+-(void)getUserLocation:(nonnull AGSMapView *)mapView andSymbolImage:(nonnull NSString *)imageName {
     
     self.currentMapView = mapView;
     self.symbolImage = imageName;
@@ -114,7 +114,8 @@
         self.location.delegate = self;
         self.location.desiredAccuracy = kCLLocationAccuracyBest;
         self.location.distanceFilter = 1000.0;
-        [self.location requestAlwaysAuthorization];
+        //[self.location requestAlwaysAuthorization];
+        [self.location requestWhenInUseAuthorization];
         [self.location startUpdatingLocation];
     }
 }
@@ -148,8 +149,16 @@
                  (requestAlwaysAuthorization)]) {
                 
                 [self.location requestAlwaysAuthorization];
+
                 
             }
+            break;
+        case kCLAuthorizationStatusAuthorizedWhenInUse:
+            if ([self.location respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+                
+                [self.location requestWhenInUseAuthorization];
+            }
+            
             break;
         default:
             break;
