@@ -7,9 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "EnumType.h"
-
-//#import <ArcGIS/ArcGIS.h>
 @import ArcGIS;
 
 /**
