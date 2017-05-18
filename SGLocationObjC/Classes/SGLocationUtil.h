@@ -46,6 +46,16 @@
  */
 -(nullable AGSPoint *)getUserPoint;
 
+/**
+ 获取当前位置
+ 
+ @param success 获取当前位置成功
+ @param failed 获取当前位置失败
+ */
+-(void)getUserLocationWith:
+(nonnull void (^)(CLLocation  *_Nullable location))success failed:
+(nonnull void(^)(NSError *_Nullable error))failed;
+
 
 
 @end

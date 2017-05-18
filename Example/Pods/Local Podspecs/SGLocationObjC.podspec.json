@@ -1,6 +1,6 @@
 {
   "name": "SGLocationObjC",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "基于ArcGis加载天地图瓦片的定位功能.",
   "description": "基于ArcGis加载天地图瓦片的定位功能",
   "homepage": "https://github.com/crash-wu/SGLocationObjC",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/crash-wu/SGLocationObjC.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

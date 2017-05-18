@@ -7,172 +7,184 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07D4F87EC7547175DBD17AD8148E85D2 /* Southigs_TiledServiceLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5283191A53C1C054476968556A95E8 /* Southigs_TiledServiceLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		124BEDB5EB016DB06096F80A19EBBCFB /* Southgis_TiledServiceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E56B37312904CC0F7E5CEF72AFD044B9 /* Southgis_TiledServiceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12B31C6638FF149DC37E2267422254DF /* SouthgisTdt_TileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4495B520C0907B8FA5A2C2A226C7DCB2 /* SouthgisTdt_TileLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		165DE43B81123A8B92B504506FEBB9A3 /* Southgis_BdWMTSLayerInfoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 586E3EB49C88E3CF34B15843703D9BFD /* Southgis_BdWMTSLayerInfoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		182240739C8CDACE4D29B75334C2FE7C /* SGSWMTSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3685B314B0340E2EDF1ED726C71EB4C4 /* SGSWMTSLayer.m */; };
-		1992DF4832DBC92F7703CB20F27A6FE2 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C83F79A5A975BEF28CB60A143AE22F85 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m */; };
-		1CA6CA1900687AB14D422B463F16A79D /* SouthgisTianDiTuWMTSLayerInfoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF67E042A8B25AC7BCFA6F8FAD2C89B /* SouthgisTianDiTuWMTSLayerInfoDelegate.m */; };
-		25450121CD006E7B98D67D6427EB7A0D /* SGSWMTSInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8980E423589862CCEFD4244C15B4AECE /* SGSWMTSInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26C5F7EEDE0433F08EADEF14777E886C /* SouthgisBaseTiledServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F4AD298692A8BF9DDF8A878B1ED88E /* SouthgisBaseTiledServiceLayer.m */; };
-		27A862B954CF35E60D6329BED772D2B8 /* SGLocationObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5E9011BBA481241EDFE108687E5825 /* SGLocationObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28DC631463D6793F55C12214463AA9AA /* Southgis_TiledServiceLayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFFE6C1E87C19946A20B5B12A9406C8 /* Southgis_TiledServiceLayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CD27047922FC13B0B9DEB8A217A7B31 /* SGLocationObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 747247202E30D973D0E2CBAC133FA3ED /* SGLocationObjC-dummy.m */; };
-		3E6F0FC4FF4D54BB1492834E57A16293 /* SouthgisTianDiTuWMTSLayerInfoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E767AF0D28DADF4CFC05C45A110FE2DF /* SouthgisTianDiTuWMTSLayerInfoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43E382496BD18ACE587571B49B607965 /* SGLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8E88AF1EB1085A302116D5967A330 /* SGLocationUtil.m */; };
-		47ED5673E186390C7F9CD87DB50ECBB4 /* SGSWMTSLayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CD200537C3908CF368E0ECE037686C /* SGSWMTSLayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49252F591D48F7114907502570D3657F /* SouthgisBdWMTSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63040FCFA2041DA4BD3852F5FBE54E8F /* SouthgisBdWMTSLayer.m */; };
-		4C6CCB36BE37D063703DCFDBB34AF124 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B8FE7CD4EF314C78FCC674278D2B68 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57ADFD5C82D27D6E726B3E44A330DE2A /* SGSWMTSLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E47DA91ACF8843C626C805D10AAA52A /* SGSWMTSLayerInfo.m */; };
-		63B8F0D79FFF0586192E80F4CEACD75C /* SGTileLayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E0491368883A006EF41F29DFB5519D84 /* SGTileLayerUtil.m */; };
-		6662409976B69CCDA6BB294E61E2433D /* NSDictionary+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3172F9C425AC8E457B99280C3978CE /* NSDictionary+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6773B60D5F1539D635099E21D1B121A1 /* SGLocationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C035095A80ADD7F15169517460917FD /* SGLocationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73F7DAB64235085B0726747AE2182D59 /* SouthgisTdt_LayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF9AE1E6E3A49F4B10409CDC224A677 /* SouthgisTdt_LayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7720211F4A48018F6818F152B934CC9A /* SGSWMTSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F88C9DFE446402440C305FD3472EE12 /* SGSWMTSInfo.m */; };
-		796A2B113053486DF86F68E2C537264F /* SGTileLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CA099C485BB3FA4437CC9047B2BC316 /* SGTileLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86F106944F08B183E0A50A3FC2A47976 /* Southgis_BdWMTSLayerInfoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C040D6FA4ABB878935BA31B6F71EA7AA /* Southgis_BdWMTSLayerInfoDelegate.m */; };
-		8D0966AF6D6507153603AD4CD206DB1A /* SouthgisTiledMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8607CF63834268248B99B10F29BAAB /* SouthgisTiledMapHelper.m */; };
-		8D1B8F207F6B615158385B96B536EE45 /* SGTileLayerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BF64E70CBD0A4E4B04AC6D464AFE16C /* SGTileLayerUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D9FD221789E707761052C5B6F9CF612 /* SGTileLayerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 248D40371EE803DEB8C8FB14B4175764 /* SGTileLayerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E40511DF71A2AA2C133B1CBBAF03B6C /* Southigs_TiledServiceLayerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 639D6CFDB2D42AF5FA40879B017148F1 /* Southigs_TiledServiceLayerOperation.m */; };
-		8F776F3953DE6ECF0816EE823942A052 /* SouthgisTiledMapHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F1394086588936444C78BA499328D4 /* SouthgisTiledMapHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90721C46BF0FE4706E075AC28C740A3A /* SouthgisBaseTiledServiceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 199E9981692F311224DA31B77185756B /* SouthgisBaseTiledServiceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95F69C6525F06CC1C1919E59D6517BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		98C8C9C7B488561E09878B4E09416EAC /* Southgis_WMTSLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4582FCE9B6EEF3596CBCD516E34CA8 /* Southgis_WMTSLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99D573E5AFF4E1A2454FAF08911CC132 /* Southgis_BdWMTSLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EEDC790FB8B28F41786173B3C3D371 /* Southgis_BdWMTSLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DF6D8C52B01588CDB256964FE6CB24C /* SGSWMTSLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B785D9FF25FCD999466218CE65766D /* SGSWMTSLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E7EDFAF0274B936892751FC9BC00A6F /* SouthgisTdtType.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CB3496AC66B6ACEAAE2CF5A0EB7BA5 /* SouthgisTdtType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A04E6C0B2D0903A2604D5FF4D27E4585 /* NSDictionary+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 394FD975A47E7CD0E27C838F04D09309 /* NSDictionary+YYAdd.m */; };
-		A1539C4DF5FCE8760091ECB3C427C8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A5C83E709A8D433255296CA4DA170CC5 /* SouthgisBdWMTSLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D915C4329C0BF346854FC22C8D7D3FC /* SouthgisBdWMTSLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8673CEA7DE21D40DA9D263AE91A689D /* SouthgisTdt_TileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA7420800E95789F9A0B4AE7383ED7D /* SouthgisTdt_TileLayer.m */; };
-		AA1445DF8E13D3AB70694FD7725ED5A3 /* SouthgisTdt_LayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B3B15694FFBD8049A800C76BCE3D54 /* SouthgisTdt_LayerInfo.m */; };
-		AF45E14B37831B94BF7D46D0F312A5F9 /* Southgis_BdWMTSLayerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A92D67E3DDCA8722A646C592A11D32E2 /* Southgis_BdWMTSLayerOperation.m */; };
-		B8570A494DBA59B94AE70F8158604A0B /* Southgis_TiledServiceLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93A20D3005961DBCA2898209A0719E /* Southgis_TiledServiceLayerInfo.m */; };
-		C0C700DF11CCE0B5F607E01B40936119 /* Southgis_TiledServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E845055865FE9B75CB75C8E7E6B655E /* Southgis_TiledServiceLayer.m */; };
-		C843553680D6BA8B8A0BB2799C009C9B /* Pods-SGLocationObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FDD13B5F324195E2161762E293EAB4 /* Pods-SGLocationObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDB5B84CDDFBDB78634B1EF55DA1E7ED /* SGTileLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1C13A55DF840F4111C48C6267F7FBF /* SGTileLayer-dummy.m */; };
-		CDF1947A43C7077D911C750880A95362 /* Southgis_TiledServiceLayerInfoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5292427B6125D47291DA5844638F3EDB /* Southgis_TiledServiceLayerInfoOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE3C21146723B04522492EB51BBDD737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E30DE611E2E14D6D674967C7F92AA6A1 /* Southgis_WMTSLayerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F25E7AB74C7949EC29204D042DFCB /* Southgis_WMTSLayerOperation.m */; };
-		E82846C87AD0D42F01C28380C928358D /* Pods-SGLocationObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D29676C21219E050788D59336AA86D42 /* Pods-SGLocationObjC_Example-dummy.m */; };
-		FBA8EBF64B26CC2D9BEDA42019BBD161 /* Southgis_TiledServiceLayerInfoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F9FE9F3DBBA599768EE8811A7876DFC3 /* Southgis_TiledServiceLayerInfoOperation.m */; };
-		FBED2AE8E79F56789E33F51E554A2127 /* SouthgisTdtType.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F30BF92A6AAD77A7A763DADAB101AA /* SouthgisTdtType.m */; };
+		06136819CEB02C08A36F637554F69358 /* SGTileLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8F4D23D3D0B8D22363F0EBF4F8EAF6 /* SGTileLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13A0C2609FBFA66F8A341685B0B8E640 /* Southgis_TiledServiceLayerInfoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37711884301A09464872B2B90F3579E1 /* Southgis_TiledServiceLayerInfoOperation.m */; };
+		14CDA53B05A847515FEFBF238C40231E /* SouthgisTdt_TileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D874BC191B3129BEDF3DC3863D2CE1B /* SouthgisTdt_TileLayer.m */; };
+		18C9E50761D6380D78A4866B1D0AD40B /* SouthgisBaseTiledServiceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9804137990C2592DA3FA9A8B6BC8AE2F /* SouthgisBaseTiledServiceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D787215A3B3CFD457B2D3EEACE99414 /* Southgis_WMTSLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 61942047C52E9295508627C7DA1CDF92 /* Southgis_WMTSLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		215B06A42653E5357B81C5EB9B0228CD /* SGTileLayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB7DAD4D3273AEDF0E7D59C38A021C /* SGTileLayerUtil.m */; };
+		29D2C074071A79E00DA6515EEB13F079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2A08CA1C69487D8A5864123C4B97300C /* SGSWMTSLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B22A7E07037E652294CC6BDD433D826E /* SGSWMTSLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0497464D30E29862FEB09B08433589 /* SGTileLayerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A6BDF11C3FEA11AFDF51D7A2CF4B40 /* SGTileLayerUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335927C05332D28727DB641AAFCF985A /* Southgis_TiledServiceLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EEBDF836FB9A64C520E2F701CB57FE /* Southgis_TiledServiceLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37E66EE54047AAF19C92C22C9431565E /* Southgis_BdWMTSLayerInfoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1BA9B1D7AED73FBA6E8C13D576C345 /* Southgis_BdWMTSLayerInfoDelegate.m */; };
+		434C2B19559586D351ACCCA6A5294AFB /* SGLocationObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 747247202E30D973D0E2CBAC133FA3ED /* SGLocationObjC-dummy.m */; };
+		45588B1B2E3A8DD28990572DEC98F550 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F402C2F3ED03F69385E59C9F3AF84C7 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46BEAF8A0596F4492E5C8D21267040C1 /* SGLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B8E88AF1EB1085A302116D5967A330 /* SGLocationUtil.m */; };
+		5594296EE298A839CA7CA71D79B0F733 /* Southgis_TiledServiceLayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 250A5E896EA298092F4FA237DF6462B9 /* Southgis_TiledServiceLayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E2FF26482B3DC141FD6C0EE97396EB /* SGSWMTSLayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5862DE11A3DAAA1982E5C92C19C64AE8 /* SGSWMTSLayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D5E2B72AFD34CB93E56D747DC2A927 /* Southgis_BdWMTSLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FE33EE8115CA33F1226BAA5940D6E9 /* Southgis_BdWMTSLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A9A30B4EC42062AFE3D417638E6B676 /* SGSWMTSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F96B2113F6BCDF86875155281EE7974 /* SGSWMTSInfo.m */; };
+		608084D0F605194397BF083BFC534A02 /* SouthgisBdWMTSLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E992CF40AE88DC6F69F35F963155856 /* SouthgisBdWMTSLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C3CBAF0D46C5C43FF7D1901BB057A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		671CB064F6480F04AB21FAF1FAE2AAC1 /* Southigs_TiledServiceLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A43DEB8854DC0A15EDEE21FB260BCF24 /* Southigs_TiledServiceLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69881475DB59C3530D73AC06C7B59AD0 /* SouthgisTdtType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3212B09734F14792986BDF22CA6CF625 /* SouthgisTdtType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB21860B4E8C3EE72070098DF3BB50B /* SouthgisTianDiTuWMTSLayerInfoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AA068B5523CF0D2EFAFB24223CE6CE /* SouthgisTianDiTuWMTSLayerInfoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		739B27863B434D31C2330ED4ED90FF5F /* Southgis_TiledServiceLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E269CD835DFF8EE8FF0FE0D4A941B6A /* Southgis_TiledServiceLayerInfo.m */; };
+		73FB0188A99FA7D70B381F81EC0DA9FD /* SGTileLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A98F2CDED47FDD212AE066570CFBA478 /* SGTileLayer-dummy.m */; };
+		7F658ABD92EB9F5B6C7C6DEDF9FEB075 /* SGLocationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C035095A80ADD7F15169517460917FD /* SGLocationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81FE28AB92A2F83102214FBCDF536668 /* NSDictionary+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E3C9E5F2595F3564E2A20EDC1CE8BD /* NSDictionary+YYAdd.m */; };
+		8310F67D1197416D1F529A32D66A0217 /* SGGDLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F22ED44D536E983E4C921142BC7EE965 /* SGGDLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		880DDF50AFD5DF8B690CBAF81A0B70A6 /* SouthgisTdt_TileLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C6BAED5FCB76822C34258E9C4C82DB /* SouthgisTdt_TileLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CEF254A496E72E890974EB100734FCB /* SouthgisTiledMapHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF99CF953B8A253FE5985624B51E301 /* SouthgisTiledMapHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E8E87BA9431E52D5CC3761C84F39826 /* Southgis_TiledServiceLayerInfoOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E93CCCD0A31F933E96C53A0F0B888C /* Southgis_TiledServiceLayerInfoOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90FEF0223C3C895D7427B28D5D4BD999 /* SouthgisTianDiTuWMTSLayerInfoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36303D17577916723B1B21F9152BAC0D /* SouthgisTianDiTuWMTSLayerInfoDelegate.m */; };
+		91525A43486364CBAF7E7C6E97EF0C24 /* SouthgisBdWMTSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC666C7C3F15581BCD9A9FEDCF110E52 /* SouthgisBdWMTSLayer.m */; };
+		9506D0ADB181174236962FF072527600 /* SGGDLayerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 437CAE6FF17022B1D76734AB43E68E39 /* SGGDLayerOperation.m */; };
+		97F6524034F252B19F0F1674F10192B1 /* Southigs_TiledServiceLayerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1A7476A3B18E3DB9F8293BAA3745 /* Southigs_TiledServiceLayerOperation.m */; };
+		99889AC5B1F77146ADCF8B397300319D /* SGSWMTSLayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4C40BBFD72B04EA5427BD04B2D6AA0 /* SGSWMTSLayerInfo.m */; };
+		9F16F9B707EA2AAA1499E5D0D2464FE1 /* SGGDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ED99ACF4F1BE7B34D7282B3D85B92 /* SGGDLayer.m */; };
+		9FCA75FB305700EEF55F06A57DB82A5B /* SGSWMTSInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EF05A252CD348B7061E4D7F03A52833B /* SGSWMTSInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A102918EBEBFC1EAA1781EF453020B8A /* SouthgisTdtType.m in Sources */ = {isa = PBXBuildFile; fileRef = D005C4142D4109D2FC9F80E01B516CA8 /* SouthgisTdtType.m */; };
+		A449C47A3004E9DFB9F9F5208DA61B8F /* SGGDLayerInfoDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7865EBBB9E5F757393AFFCE7D38B4B /* SGGDLayerInfoDelegate.m */; };
+		A4F7AACC7033844D80254488C34479B2 /* SouthgisTdt_LayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C3F0F6F2DCC4AF0747F1BF031C0C4 /* SouthgisTdt_LayerInfo.m */; };
+		A6CDDCD736C160D5AF00A2EC837FEF5C /* Southgis_WMTSLayerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D5856776EDA83C4C1EF0AC46B3BB209C /* Southgis_WMTSLayerOperation.m */; };
+		AABCD9B8EFD45778205CFE29821479E0 /* SGGDLayerInfoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F24C65394CF1017BC80180EB6E8AFEC /* SGGDLayerInfoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AABD7416D509AFC0A18D1EC927075648 /* Southgis_BdWMTSLayerInfoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 571AE9CA3529C2BB86BBBA9240FD4655 /* Southgis_BdWMTSLayerInfoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB2282CA389CE6291BA58FD221A3E075 /* SouthgisTdt_LayerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F050C9B95623F8987FA5905F33221FD /* SouthgisTdt_LayerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B181D6BACAFDF8C345A0F7CDA7C2D4EA /* SGGDLayerOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F40224B5DAF50AABDD6CBCD12D419A6 /* SGGDLayerOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B50342A45EDD28A99A905E4464B39441 /* SGTileLayerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CEFDA32D22185B1681C331AE9C296EA /* SGTileLayerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF5A7F4EE25645B27B20B0FC3A14A4F2 /* NSDictionary+YYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F18AA8671F59B4F2ECFFC06C917E4828 /* NSDictionary+YYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C518E3754B1E0A8CD02FAE9D703DC767 /* Southgis_TiledServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD543CA7569DC72AA6FB34D2BB94B54 /* Southgis_TiledServiceLayer.m */; };
+		C76E0F36070768599AA18443C3B99C00 /* SGLocationObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5E9011BBA481241EDFE108687E5825 /* SGLocationObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7990D5DF7CD37C82C55EE678471D8B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CD842091797FF728BC26C3FBAEDB01CF /* Pods-SGLocationObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D29676C21219E050788D59336AA86D42 /* Pods-SGLocationObjC_Example-dummy.m */; };
+		D14A65ABE55B0E1228524C79DC4A7D4B /* Southgis_BdWMTSLayerOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C768EA32615303563AC67256A316592 /* Southgis_BdWMTSLayerOperation.m */; };
+		E131FCAF6B8A39393CD8430DC8A47B3A /* SouthgisBaseTiledServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C8B13D358B496E26F1C4F5886C656B /* SouthgisBaseTiledServiceLayer.m */; };
+		E585299F347F9D522B657C49E71F6D23 /* SGSWMTSLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA13573AFE0AD385335DC98588584ED3 /* SGSWMTSLayer.m */; };
+		ED26F37F71EBBB287FB38BD4D160807B /* SouthgisTiledMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D338344B40FEEAFCAE33B48A3AED001 /* SouthgisTiledMapHelper.m */; };
+		EFC26A5A36C608FE22234CD9E2FD56F5 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D531D507202613D43309073C6A52108 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m */; };
+		FD442298030AF2010658694E8D1FB37F /* Pods-SGLocationObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FDD13B5F324195E2161762E293EAB4 /* Pods-SGLocationObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		513E84435DA8FDA913517311FB83880A /* PBXContainerItemProxy */ = {
+		1FB8B042642927BFA6F6AA26E33A6172 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 948739078E5622B7DEFBA5FBCBDB83DA;
+			remoteGlobalIDString = 009F1B1841FDE6290A4F29A9AD3FB3A3;
 			remoteInfo = SGTileLayer;
 		};
-		D97F3F25C35E9EC6C3A52B592D19C0FD /* PBXContainerItemProxy */ = {
+		88B054AE04AC9AC7F474E4908B1E75FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AECE3571A3A407197954BCB41B345EB9;
+			remoteGlobalIDString = 9257BB43489D2505CCFEC36F5FEA450D;
 			remoteInfo = SGLocationObjC;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E4582FCE9B6EEF3596CBCD516E34CA8 /* Southgis_WMTSLayerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_WMTSLayerOperation.h; path = SGTileLayer/Classes/TdtTile/Southgis_WMTSLayerOperation.h; sourceTree = "<group>"; };
-		0F88C9DFE446402440C305FD3472EE12 /* SGSWMTSInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGSWMTSInfo.m; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSInfo.m; sourceTree = "<group>"; };
-		11CD200537C3908CF368E0ECE037686C /* SGSWMTSLayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSWMTSLayerInfo.h; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSLayerInfo.h; sourceTree = "<group>"; };
+		040ED99ACF4F1BE7B34D7282B3D85B92 /* SGGDLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGGDLayer.m; path = SGTileLayer/Classes/GDTile/SGGDLayer.m; sourceTree = "<group>"; };
+		0C1BA9B1D7AED73FBA6E8C13D576C345 /* Southgis_BdWMTSLayerInfoDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_BdWMTSLayerInfoDelegate.m; path = SGTileLayer/Classes/BdTile/Southgis_BdWMTSLayerInfoDelegate.m; sourceTree = "<group>"; };
+		0F1C3F0F6F2DCC4AF0747F1BF031C0C4 /* SouthgisTdt_LayerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTdt_LayerInfo.m; path = SGTileLayer/Classes/TdtTile/SouthgisTdt_LayerInfo.m; sourceTree = "<group>"; };
+		0F40224B5DAF50AABDD6CBCD12D419A6 /* SGGDLayerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGGDLayerOperation.h; path = SGTileLayer/Classes/GDTile/SGGDLayerOperation.h; sourceTree = "<group>"; };
+		10A6BDF11C3FEA11AFDF51D7A2CF4B40 /* SGTileLayerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGTileLayerUtil.h; path = SGTileLayer/Classes/SGTileLayerUtil.h; sourceTree = "<group>"; };
 		16FDD13B5F324195E2161762E293EAB4 /* Pods-SGLocationObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGLocationObjC_Example-umbrella.h"; sourceTree = "<group>"; };
-		199E9981692F311224DA31B77185756B /* SouthgisBaseTiledServiceLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisBaseTiledServiceLayer.h; path = SGTileLayer/Classes/SouthgisBaseTiledServiceLayer.h; sourceTree = "<group>"; };
+		1E7865EBBB9E5F757393AFFCE7D38B4B /* SGGDLayerInfoDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGGDLayerInfoDelegate.m; path = SGTileLayer/Classes/GDTile/SGGDLayerInfoDelegate.m; sourceTree = "<group>"; };
 		22310527DC96A10BFEE15177ACA2F94E /* SGTileLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGTileLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		248D40371EE803DEB8C8FB14B4175764 /* SGTileLayerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGTileLayerHeader.h; path = SGTileLayer/Classes/SGTileLayerHeader.h; sourceTree = "<group>"; };
+		23C6BAED5FCB76822C34258E9C4C82DB /* SouthgisTdt_TileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTdt_TileLayer.h; path = SGTileLayer/Classes/TdtTile/SouthgisTdt_TileLayer.h; sourceTree = "<group>"; };
+		250A5E896EA298092F4FA237DF6462B9 /* Southgis_TiledServiceLayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_TiledServiceLayerInfo.h; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfo.h; sourceTree = "<group>"; };
 		25AB04F04EBDFCCB3F910E5A716545C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A8607CF63834268248B99B10F29BAAB /* SouthgisTiledMapHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTiledMapHelper.m; path = SGTileLayer/Classes/SouthgisTiledMapHelper.m; sourceTree = "<group>"; };
-		2D915C4329C0BF346854FC22C8D7D3FC /* SouthgisBdWMTSLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisBdWMTSLayer.h; path = SGTileLayer/Classes/BdTile/SouthgisBdWMTSLayer.h; sourceTree = "<group>"; };
-		35F30BF92A6AAD77A7A763DADAB101AA /* SouthgisTdtType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTdtType.m; path = SGTileLayer/Classes/TdtTile/SouthgisTdtType.m; sourceTree = "<group>"; };
-		3685B314B0340E2EDF1ED726C71EB4C4 /* SGSWMTSLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGSWMTSLayer.m; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSLayer.m; sourceTree = "<group>"; };
-		394FD975A47E7CD0E27C838F04D09309 /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "SGTileLayer/Classes/SGSWMTS/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
+		2E269CD835DFF8EE8FF0FE0D4A941B6A /* Southgis_TiledServiceLayerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_TiledServiceLayerInfo.m; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfo.m; sourceTree = "<group>"; };
+		3212B09734F14792986BDF22CA6CF625 /* SouthgisTdtType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTdtType.h; path = SGTileLayer/Classes/TdtTile/SouthgisTdtType.h; sourceTree = "<group>"; };
+		36303D17577916723B1B21F9152BAC0D /* SouthgisTianDiTuWMTSLayerInfoDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTianDiTuWMTSLayerInfoDelegate.m; path = SGTileLayer/Classes/TdtTile/SouthgisTianDiTuWMTSLayerInfoDelegate.m; sourceTree = "<group>"; };
+		37711884301A09464872B2B90F3579E1 /* Southgis_TiledServiceLayerInfoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_TiledServiceLayerInfoOperation.m; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation.m; sourceTree = "<group>"; };
 		399A217DB1A656B0085467F99E7D2B20 /* Pods-SGLocationObjC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGLocationObjC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3B8BE45E9E9586E50E11E2B7CF5B5156 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3EF67E042A8B25AC7BCFA6F8FAD2C89B /* SouthgisTianDiTuWMTSLayerInfoDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTianDiTuWMTSLayerInfoDelegate.m; path = SGTileLayer/Classes/TdtTile/SouthgisTianDiTuWMTSLayerInfoDelegate.m; sourceTree = "<group>"; };
-		4495B520C0907B8FA5A2C2A226C7DCB2 /* SouthgisTdt_TileLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTdt_TileLayer.h; path = SGTileLayer/Classes/TdtTile/SouthgisTdt_TileLayer.h; sourceTree = "<group>"; };
-		47F38EF11668BE08475BB804F288BD9C /* SGTileLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGTileLayer.xcconfig; sourceTree = "<group>"; };
-		4BF64E70CBD0A4E4B04AC6D464AFE16C /* SGTileLayerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGTileLayerUtil.h; path = SGTileLayer/Classes/SGTileLayerUtil.h; sourceTree = "<group>"; };
+		3FF99CF953B8A253FE5985624B51E301 /* SouthgisTiledMapHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTiledMapHelper.h; path = SGTileLayer/Classes/SouthgisTiledMapHelper.h; sourceTree = "<group>"; };
+		42FB7DAD4D3273AEDF0E7D59C38A021C /* SGTileLayerUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGTileLayerUtil.m; path = SGTileLayer/Classes/SGTileLayerUtil.m; sourceTree = "<group>"; };
+		437CAE6FF17022B1D76734AB43E68E39 /* SGGDLayerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGGDLayerOperation.m; path = SGTileLayer/Classes/GDTile/SGGDLayerOperation.m; sourceTree = "<group>"; };
+		4D338344B40FEEAFCAE33B48A3AED001 /* SouthgisTiledMapHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTiledMapHelper.m; path = SGTileLayer/Classes/SouthgisTiledMapHelper.m; sourceTree = "<group>"; };
 		4D9CBF7D7DD95F110A7FCDD9556F1E14 /* SGLocationObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGLocationObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E3172F9C425AC8E457B99280C3978CE /* NSDictionary+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YYAdd.h"; path = "SGTileLayer/Classes/SGSWMTS/NSDictionary+YYAdd.h"; sourceTree = "<group>"; };
-		51B785D9FF25FCD999466218CE65766D /* SGSWMTSLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSWMTSLayer.h; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSLayer.h; sourceTree = "<group>"; };
-		5292427B6125D47291DA5844638F3EDB /* Southgis_TiledServiceLayerInfoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_TiledServiceLayerInfoOperation.h; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation.h; sourceTree = "<group>"; };
-		586E3EB49C88E3CF34B15843703D9BFD /* Southgis_BdWMTSLayerInfoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_BdWMTSLayerInfoDelegate.h; path = SGTileLayer/Classes/BdTile/Southgis_BdWMTSLayerInfoDelegate.h; sourceTree = "<group>"; };
-		5B5283191A53C1C054476968556A95E8 /* Southigs_TiledServiceLayerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southigs_TiledServiceLayerOperation.h; path = SGTileLayer/Classes/CustomTile/Southigs_TiledServiceLayerOperation.h; sourceTree = "<group>"; };
+		571AE9CA3529C2BB86BBBA9240FD4655 /* Southgis_BdWMTSLayerInfoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_BdWMTSLayerInfoDelegate.h; path = SGTileLayer/Classes/BdTile/Southgis_BdWMTSLayerInfoDelegate.h; sourceTree = "<group>"; };
+		5862DE11A3DAAA1982E5C92C19C64AE8 /* SGSWMTSLayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSWMTSLayerInfo.h; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSLayerInfo.h; sourceTree = "<group>"; };
+		58FE33EE8115CA33F1226BAA5940D6E9 /* Southgis_BdWMTSLayerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_BdWMTSLayerOperation.h; path = SGTileLayer/Classes/BdTile/Southgis_BdWMTSLayerOperation.h; sourceTree = "<group>"; };
+		59DC59118BF335610D6C75286CF0AC2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C768EA32615303563AC67256A316592 /* Southgis_BdWMTSLayerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_BdWMTSLayerOperation.m; path = SGTileLayer/Classes/BdTile/Southgis_BdWMTSLayerOperation.m; sourceTree = "<group>"; };
+		5D874BC191B3129BEDF3DC3863D2CE1B /* SouthgisTdt_TileLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTdt_TileLayer.m; path = SGTileLayer/Classes/TdtTile/SouthgisTdt_TileLayer.m; sourceTree = "<group>"; };
+		5E992CF40AE88DC6F69F35F963155856 /* SouthgisBdWMTSLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisBdWMTSLayer.h; path = SGTileLayer/Classes/BdTile/SouthgisBdWMTSLayer.h; sourceTree = "<group>"; };
+		5F402C2F3ED03F69385E59C9F3AF84C7 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h"; path = "SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h"; sourceTree = "<group>"; };
+		60AA068B5523CF0D2EFAFB24223CE6CE /* SouthgisTianDiTuWMTSLayerInfoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTianDiTuWMTSLayerInfoDelegate.h; path = SGTileLayer/Classes/TdtTile/SouthgisTianDiTuWMTSLayerInfoDelegate.h; sourceTree = "<group>"; };
+		61942047C52E9295508627C7DA1CDF92 /* Southgis_WMTSLayerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_WMTSLayerOperation.h; path = SGTileLayer/Classes/TdtTile/Southgis_WMTSLayerOperation.h; sourceTree = "<group>"; };
 		621CBEE4FEEE3FC5518334CB955789C5 /* Pods-SGLocationObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SGLocationObjC_Example.modulemap"; sourceTree = "<group>"; };
-		63040FCFA2041DA4BD3852F5FBE54E8F /* SouthgisBdWMTSLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisBdWMTSLayer.m; path = SGTileLayer/Classes/BdTile/SouthgisBdWMTSLayer.m; sourceTree = "<group>"; };
-		639D6CFDB2D42AF5FA40879B017148F1 /* Southigs_TiledServiceLayerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southigs_TiledServiceLayerOperation.m; path = SGTileLayer/Classes/CustomTile/Southigs_TiledServiceLayerOperation.m; sourceTree = "<group>"; };
+		65FC1A7476A3B18E3DB9F8293BAA3745 /* Southigs_TiledServiceLayerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southigs_TiledServiceLayerOperation.m; path = SGTileLayer/Classes/CustomTile/Southigs_TiledServiceLayerOperation.m; sourceTree = "<group>"; };
 		66A885D04D727E57D31D48529D6F95AE /* Pods-SGLocationObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGLocationObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6A1F25E7AB74C7949EC29204D042DFCB /* Southgis_WMTSLayerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_WMTSLayerOperation.m; path = SGTileLayer/Classes/TdtTile/Southgis_WMTSLayerOperation.m; sourceTree = "<group>"; };
-		6BF9AE1E6E3A49F4B10409CDC224A677 /* SouthgisTdt_LayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTdt_LayerInfo.h; path = SGTileLayer/Classes/TdtTile/SouthgisTdt_LayerInfo.h; sourceTree = "<group>"; };
 		6C035095A80ADD7F15169517460917FD /* SGLocationUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SGLocationUtil.h; sourceTree = "<group>"; };
-		6CA7420800E95789F9A0B4AE7383ED7D /* SouthgisTdt_TileLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTdt_TileLayer.m; path = SGTileLayer/Classes/TdtTile/SouthgisTdt_TileLayer.m; sourceTree = "<group>"; };
+		6D531D507202613D43309073C6A52108 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m"; path = "SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m"; sourceTree = "<group>"; };
 		7280FEE53779FADB9F7D25AFC9E54429 /* Pods_SGLocationObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGLocationObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73F4AD298692A8BF9DDF8A878B1ED88E /* SouthgisBaseTiledServiceLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisBaseTiledServiceLayer.m; path = SGTileLayer/Classes/SouthgisBaseTiledServiceLayer.m; sourceTree = "<group>"; };
 		747247202E30D973D0E2CBAC133FA3ED /* SGLocationObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGLocationObjC-dummy.m"; sourceTree = "<group>"; };
-		78F1394086588936444C78BA499328D4 /* SouthgisTiledMapHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTiledMapHelper.h; path = SGTileLayer/Classes/SouthgisTiledMapHelper.h; sourceTree = "<group>"; };
 		79846147CCE3DA4466D0AE9C95D3E0CD /* Pods-SGLocationObjC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGLocationObjC_Example-resources.sh"; sourceTree = "<group>"; };
-		7A1C13A55DF840F4111C48C6267F7FBF /* SGTileLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGTileLayer-dummy.m"; sourceTree = "<group>"; };
-		7DF9DB86EBF58A32E5963C63BE644B90 /* SGTileLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SGTileLayer.modulemap; sourceTree = "<group>"; };
-		7E47DA91ACF8843C626C805D10AAA52A /* SGSWMTSLayerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGSWMTSLayerInfo.m; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSLayerInfo.m; sourceTree = "<group>"; };
-		8980E423589862CCEFD4244C15B4AECE /* SGSWMTSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSWMTSInfo.h; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSInfo.h; sourceTree = "<group>"; };
-		8A93A20D3005961DBCA2898209A0719E /* Southgis_TiledServiceLayerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_TiledServiceLayerInfo.m; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfo.m; sourceTree = "<group>"; };
+		7C8F4D23D3D0B8D22363F0EBF4F8EAF6 /* SGTileLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGTileLayer-umbrella.h"; sourceTree = "<group>"; };
+		7CEFDA32D22185B1681C331AE9C296EA /* SGTileLayerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGTileLayerHeader.h; path = SGTileLayer/Classes/SGTileLayerHeader.h; sourceTree = "<group>"; };
+		7FD543CA7569DC72AA6FB34D2BB94B54 /* Southgis_TiledServiceLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_TiledServiceLayer.m; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayer.m; sourceTree = "<group>"; };
+		86C8B13D358B496E26F1C4F5886C656B /* SouthgisBaseTiledServiceLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisBaseTiledServiceLayer.m; path = SGTileLayer/Classes/SouthgisBaseTiledServiceLayer.m; sourceTree = "<group>"; };
 		8D5E9011BBA481241EDFE108687E5825 /* SGLocationObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGLocationObjC-umbrella.h"; sourceTree = "<group>"; };
-		8E845055865FE9B75CB75C8E7E6B655E /* Southgis_TiledServiceLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_TiledServiceLayer.m; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayer.m; sourceTree = "<group>"; };
+		8F050C9B95623F8987FA5905F33221FD /* SouthgisTdt_LayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTdt_LayerInfo.h; path = SGTileLayer/Classes/TdtTile/SouthgisTdt_LayerInfo.h; sourceTree = "<group>"; };
+		8F24C65394CF1017BC80180EB6E8AFEC /* SGGDLayerInfoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGGDLayerInfoDelegate.h; path = SGTileLayer/Classes/GDTile/SGGDLayerInfoDelegate.h; sourceTree = "<group>"; };
 		9032757EC0518E91C0A556EBEB68249F /* SGLocationObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGLocationObjC-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9BF64D3BBB70D69D00893C95253DE288 /* SGTileLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGTileLayer-prefix.pch"; sourceTree = "<group>"; };
-		9CA099C485BB3FA4437CC9047B2BC316 /* SGTileLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGTileLayer-umbrella.h"; sourceTree = "<group>"; };
-		A2B8FE7CD4EF314C78FCC674278D2B68 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h"; path = "SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h"; sourceTree = "<group>"; };
+		96E3C9E5F2595F3564E2A20EDC1CE8BD /* NSDictionary+YYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YYAdd.m"; path = "SGTileLayer/Classes/SGSWMTS/NSDictionary+YYAdd.m"; sourceTree = "<group>"; };
+		9804137990C2592DA3FA9A8B6BC8AE2F /* SouthgisBaseTiledServiceLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisBaseTiledServiceLayer.h; path = SGTileLayer/Classes/SouthgisBaseTiledServiceLayer.h; sourceTree = "<group>"; };
+		9F96B2113F6BCDF86875155281EE7974 /* SGSWMTSInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGSWMTSInfo.m; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSInfo.m; sourceTree = "<group>"; };
+		A43DEB8854DC0A15EDEE21FB260BCF24 /* Southigs_TiledServiceLayerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southigs_TiledServiceLayerOperation.h; path = SGTileLayer/Classes/CustomTile/Southigs_TiledServiceLayerOperation.h; sourceTree = "<group>"; };
 		A6A42FBEF8E7A78843845A2F16C7C788 /* SGLocationObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SGLocationObjC.modulemap; sourceTree = "<group>"; };
-		A92D67E3DDCA8722A646C592A11D32E2 /* Southgis_BdWMTSLayerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_BdWMTSLayerOperation.m; path = SGTileLayer/Classes/BdTile/Southgis_BdWMTSLayerOperation.m; sourceTree = "<group>"; };
+		A98F2CDED47FDD212AE066570CFBA478 /* SGTileLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGTileLayer-dummy.m"; sourceTree = "<group>"; };
 		AAFED8A605A4EFE31C22CF978D697769 /* SGLocationObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGLocationObjC.xcconfig; sourceTree = "<group>"; };
-		B6B3B15694FFBD8049A800C76BCE3D54 /* SouthgisTdt_LayerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTdt_LayerInfo.m; path = SGTileLayer/Classes/TdtTile/SouthgisTdt_LayerInfo.m; sourceTree = "<group>"; };
-		B6CB3496AC66B6ACEAAE2CF5A0EB7BA5 /* SouthgisTdtType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTdtType.h; path = SGTileLayer/Classes/TdtTile/SouthgisTdtType.h; sourceTree = "<group>"; };
-		C040D6FA4ABB878935BA31B6F71EA7AA /* Southgis_BdWMTSLayerInfoDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_BdWMTSLayerInfoDelegate.m; path = SGTileLayer/Classes/BdTile/Southgis_BdWMTSLayerInfoDelegate.m; sourceTree = "<group>"; };
-		C83F79A5A975BEF28CB60A143AE22F85 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m"; path = "SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m"; sourceTree = "<group>"; };
+		B22A7E07037E652294CC6BDD433D826E /* SGSWMTSLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSWMTSLayer.h; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSLayer.h; sourceTree = "<group>"; };
+		BC666C7C3F15581BCD9A9FEDCF110E52 /* SouthgisBdWMTSLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisBdWMTSLayer.m; path = SGTileLayer/Classes/BdTile/SouthgisBdWMTSLayer.m; sourceTree = "<group>"; };
 		C8A85CB92FE5D60F8A58260A1C8DCE9B /* Pods-SGLocationObjC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGLocationObjC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D005C4142D4109D2FC9F80E01B516CA8 /* SouthgisTdtType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SouthgisTdtType.m; path = SGTileLayer/Classes/TdtTile/SouthgisTdtType.m; sourceTree = "<group>"; };
 		D29676C21219E050788D59336AA86D42 /* Pods-SGLocationObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGLocationObjC_Example-dummy.m"; sourceTree = "<group>"; };
+		D5856776EDA83C4C1EF0AC46B3BB209C /* Southgis_WMTSLayerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_WMTSLayerOperation.m; path = SGTileLayer/Classes/TdtTile/Southgis_WMTSLayerOperation.m; sourceTree = "<group>"; };
 		D74BAE2E6BE2180DB956198AC3A6C20F /* Pods-SGLocationObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGLocationObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E0491368883A006EF41F29DFB5519D84 /* SGTileLayerUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGTileLayerUtil.m; path = SGTileLayer/Classes/SGTileLayerUtil.m; sourceTree = "<group>"; };
-		E56B37312904CC0F7E5CEF72AFD044B9 /* Southgis_TiledServiceLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_TiledServiceLayer.h; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayer.h; sourceTree = "<group>"; };
-		E767AF0D28DADF4CFC05C45A110FE2DF /* SouthgisTianDiTuWMTSLayerInfoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SouthgisTianDiTuWMTSLayerInfoDelegate.h; path = SGTileLayer/Classes/TdtTile/SouthgisTianDiTuWMTSLayerInfoDelegate.h; sourceTree = "<group>"; };
-		EBFFE6C1E87C19946A20B5B12A9406C8 /* Southgis_TiledServiceLayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_TiledServiceLayerInfo.h; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfo.h; sourceTree = "<group>"; };
+		D8E93CCCD0A31F933E96C53A0F0B888C /* Southgis_TiledServiceLayerInfoOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_TiledServiceLayerInfoOperation.h; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation.h; sourceTree = "<group>"; };
+		DA13573AFE0AD385335DC98588584ED3 /* SGSWMTSLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGSWMTSLayer.m; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSLayer.m; sourceTree = "<group>"; };
+		E56B54C63D0AF56A6FBA3ADD8C8F4776 /* SGTileLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SGTileLayer.modulemap; sourceTree = "<group>"; };
+		EB1110D117C6380B4E2315375885D938 /* SGTileLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGTileLayer-prefix.pch"; sourceTree = "<group>"; };
+		ECC93513B762CA46FBBD6718CD0511EE /* SGTileLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGTileLayer.xcconfig; sourceTree = "<group>"; };
 		EDE466314D44E6AB701C4CB6B8EE6D32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE0E1B2BD07F1F3656CA85E55DED3745 /* Pods-SGLocationObjC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGLocationObjC_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F7EEDC790FB8B28F41786173B3C3D371 /* Southgis_BdWMTSLayerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_BdWMTSLayerOperation.h; path = SGTileLayer/Classes/BdTile/Southgis_BdWMTSLayerOperation.h; sourceTree = "<group>"; };
+		EF05A252CD348B7061E4D7F03A52833B /* SGSWMTSInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGSWMTSInfo.h; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSInfo.h; sourceTree = "<group>"; };
+		F18AA8671F59B4F2ECFFC06C917E4828 /* NSDictionary+YYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YYAdd.h"; path = "SGTileLayer/Classes/SGSWMTS/NSDictionary+YYAdd.h"; sourceTree = "<group>"; };
+		F22ED44D536E983E4C921142BC7EE965 /* SGGDLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SGGDLayer.h; path = SGTileLayer/Classes/GDTile/SGGDLayer.h; sourceTree = "<group>"; };
 		F8B8E88AF1EB1085A302116D5967A330 /* SGLocationUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SGLocationUtil.m; sourceTree = "<group>"; };
-		F9FE9F3DBBA599768EE8811A7876DFC3 /* Southgis_TiledServiceLayerInfoOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Southgis_TiledServiceLayerInfoOperation.m; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayerInfoOperation.m; sourceTree = "<group>"; };
+		F8EEBDF836FB9A64C520E2F701CB57FE /* Southgis_TiledServiceLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Southgis_TiledServiceLayer.h; path = SGTileLayer/Classes/CustomTile/Southgis_TiledServiceLayer.h; sourceTree = "<group>"; };
+		FF4C40BBFD72B04EA5427BD04B2D6AA0 /* SGSWMTSLayerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SGSWMTSLayerInfo.m; path = SGTileLayer/Classes/SGSWMTS/SGSWMTSLayerInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03AD53D206D21ADC8F58147FD31ACCF1 /* Frameworks */ = {
+		0297F4EA69829D31E7791A95516EA4DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95F69C6525F06CC1C1919E59D6517BAF /* Foundation.framework in Frameworks */,
+				29D2C074071A79E00DA6515EEB13F079 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BDEC99A6B148A19769BF7E9C12DB9C9 /* Frameworks */ = {
+		98C4FAA020E8B05C2531B21EC9741B2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1539C4DF5FCE8760091ECB3C427C8EA /* Foundation.framework in Frameworks */,
+				C7990D5DF7CD37C82C55EE678471D8B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90636A4A7F90AFB6CFE7CD95F8EF64F0 /* Frameworks */ = {
+		B794D0BB8A1B910166FB14D39D57AFD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE3C21146723B04522492EB51BBDD737 /* Foundation.framework in Frameworks */,
+				60C3CBAF0D46C5C43FF7D1901BB057A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,14 +197,6 @@
 				93D73EA531CEB98007BDF8066360AE0A /* Classes */,
 			);
 			path = SGLocationObjC;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		6D210B316BB803907BA8D0023DA4D82D /* Pods-SGLocationObjC_Example */ = {
@@ -221,53 +225,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6FE876323051A51A5450380E2F21585C /* SGTileLayer */ = {
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4E3172F9C425AC8E457B99280C3978CE /* NSDictionary+YYAdd.h */,
-				394FD975A47E7CD0E27C838F04D09309 /* NSDictionary+YYAdd.m */,
-				8980E423589862CCEFD4244C15B4AECE /* SGSWMTSInfo.h */,
-				0F88C9DFE446402440C305FD3472EE12 /* SGSWMTSInfo.m */,
-				51B785D9FF25FCD999466218CE65766D /* SGSWMTSLayer.h */,
-				3685B314B0340E2EDF1ED726C71EB4C4 /* SGSWMTSLayer.m */,
-				11CD200537C3908CF368E0ECE037686C /* SGSWMTSLayerInfo.h */,
-				7E47DA91ACF8843C626C805D10AAA52A /* SGSWMTSLayerInfo.m */,
-				248D40371EE803DEB8C8FB14B4175764 /* SGTileLayerHeader.h */,
-				4BF64E70CBD0A4E4B04AC6D464AFE16C /* SGTileLayerUtil.h */,
-				E0491368883A006EF41F29DFB5519D84 /* SGTileLayerUtil.m */,
-				586E3EB49C88E3CF34B15843703D9BFD /* Southgis_BdWMTSLayerInfoDelegate.h */,
-				C040D6FA4ABB878935BA31B6F71EA7AA /* Southgis_BdWMTSLayerInfoDelegate.m */,
-				F7EEDC790FB8B28F41786173B3C3D371 /* Southgis_BdWMTSLayerOperation.h */,
-				A92D67E3DDCA8722A646C592A11D32E2 /* Southgis_BdWMTSLayerOperation.m */,
-				E56B37312904CC0F7E5CEF72AFD044B9 /* Southgis_TiledServiceLayer.h */,
-				8E845055865FE9B75CB75C8E7E6B655E /* Southgis_TiledServiceLayer.m */,
-				EBFFE6C1E87C19946A20B5B12A9406C8 /* Southgis_TiledServiceLayerInfo.h */,
-				8A93A20D3005961DBCA2898209A0719E /* Southgis_TiledServiceLayerInfo.m */,
-				5292427B6125D47291DA5844638F3EDB /* Southgis_TiledServiceLayerInfoOperation.h */,
-				F9FE9F3DBBA599768EE8811A7876DFC3 /* Southgis_TiledServiceLayerInfoOperation.m */,
-				A2B8FE7CD4EF314C78FCC674278D2B68 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h */,
-				C83F79A5A975BEF28CB60A143AE22F85 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m */,
-				0E4582FCE9B6EEF3596CBCD516E34CA8 /* Southgis_WMTSLayerOperation.h */,
-				6A1F25E7AB74C7949EC29204D042DFCB /* Southgis_WMTSLayerOperation.m */,
-				199E9981692F311224DA31B77185756B /* SouthgisBaseTiledServiceLayer.h */,
-				73F4AD298692A8BF9DDF8A878B1ED88E /* SouthgisBaseTiledServiceLayer.m */,
-				2D915C4329C0BF346854FC22C8D7D3FC /* SouthgisBdWMTSLayer.h */,
-				63040FCFA2041DA4BD3852F5FBE54E8F /* SouthgisBdWMTSLayer.m */,
-				6BF9AE1E6E3A49F4B10409CDC224A677 /* SouthgisTdt_LayerInfo.h */,
-				B6B3B15694FFBD8049A800C76BCE3D54 /* SouthgisTdt_LayerInfo.m */,
-				4495B520C0907B8FA5A2C2A226C7DCB2 /* SouthgisTdt_TileLayer.h */,
-				6CA7420800E95789F9A0B4AE7383ED7D /* SouthgisTdt_TileLayer.m */,
-				B6CB3496AC66B6ACEAAE2CF5A0EB7BA5 /* SouthgisTdtType.h */,
-				35F30BF92A6AAD77A7A763DADAB101AA /* SouthgisTdtType.m */,
-				E767AF0D28DADF4CFC05C45A110FE2DF /* SouthgisTianDiTuWMTSLayerInfoDelegate.h */,
-				3EF67E042A8B25AC7BCFA6F8FAD2C89B /* SouthgisTianDiTuWMTSLayerInfoDelegate.m */,
-				78F1394086588936444C78BA499328D4 /* SouthgisTiledMapHelper.h */,
-				2A8607CF63834268248B99B10F29BAAB /* SouthgisTiledMapHelper.m */,
-				5B5283191A53C1C054476968556A95E8 /* Southigs_TiledServiceLayerOperation.h */,
-				639D6CFDB2D42AF5FA40879B017148F1 /* Southigs_TiledServiceLayerOperation.m */,
-				CAD2AC1AC348FEE04365B8820A984BB3 /* Support Files */,
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
 			);
-			path = SGTileLayer;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -276,18 +239,10 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				DEC228060C653B9C826F0F00CF6E41E2 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				80090382634011BB1CDE6F13B3C36128 /* Pods */,
+				D8D2383D7CA1BAF8F9963E6FE95A80DB /* Pods */,
 				80CCDBFD4B7A62C349BF7BEB1A20E0C0 /* Products */,
 				6FC757ADCC05FDDD49BD1CB87F125182 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		80090382634011BB1CDE6F13B3C36128 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6FE876323051A51A5450380E2F21585C /* SGTileLayer */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		80CCDBFD4B7A62C349BF7BEB1A20E0C0 /* Products */ = {
@@ -326,20 +281,20 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CAD2AC1AC348FEE04365B8820A984BB3 /* Support Files */ = {
+		CB6D2A9F1A1E876EEF20CE1553672CEC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B8BE45E9E9586E50E11E2B7CF5B5156 /* Info.plist */,
-				7DF9DB86EBF58A32E5963C63BE644B90 /* SGTileLayer.modulemap */,
-				47F38EF11668BE08475BB804F288BD9C /* SGTileLayer.xcconfig */,
-				7A1C13A55DF840F4111C48C6267F7FBF /* SGTileLayer-dummy.m */,
-				9BF64D3BBB70D69D00893C95253DE288 /* SGTileLayer-prefix.pch */,
-				9CA099C485BB3FA4437CC9047B2BC316 /* SGTileLayer-umbrella.h */,
+				59DC59118BF335610D6C75286CF0AC2A /* Info.plist */,
+				E56B54C63D0AF56A6FBA3ADD8C8F4776 /* SGTileLayer.modulemap */,
+				ECC93513B762CA46FBBD6718CD0511EE /* SGTileLayer.xcconfig */,
+				A98F2CDED47FDD212AE066570CFBA478 /* SGTileLayer-dummy.m */,
+				EB1110D117C6380B4E2315375885D938 /* SGTileLayer-prefix.pch */,
+				7C8F4D23D3D0B8D22363F0EBF4F8EAF6 /* SGTileLayer-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SGTileLayer";
@@ -355,6 +310,14 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		D8D2383D7CA1BAF8F9963E6FE95A80DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED25C35BC5216EA3C97244C34C583E5B /* SGTileLayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DEC228060C653B9C826F0F00CF6E41E2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,65 +326,123 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		ED25C35BC5216EA3C97244C34C583E5B /* SGTileLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F18AA8671F59B4F2ECFFC06C917E4828 /* NSDictionary+YYAdd.h */,
+				96E3C9E5F2595F3564E2A20EDC1CE8BD /* NSDictionary+YYAdd.m */,
+				F22ED44D536E983E4C921142BC7EE965 /* SGGDLayer.h */,
+				040ED99ACF4F1BE7B34D7282B3D85B92 /* SGGDLayer.m */,
+				8F24C65394CF1017BC80180EB6E8AFEC /* SGGDLayerInfoDelegate.h */,
+				1E7865EBBB9E5F757393AFFCE7D38B4B /* SGGDLayerInfoDelegate.m */,
+				0F40224B5DAF50AABDD6CBCD12D419A6 /* SGGDLayerOperation.h */,
+				437CAE6FF17022B1D76734AB43E68E39 /* SGGDLayerOperation.m */,
+				EF05A252CD348B7061E4D7F03A52833B /* SGSWMTSInfo.h */,
+				9F96B2113F6BCDF86875155281EE7974 /* SGSWMTSInfo.m */,
+				B22A7E07037E652294CC6BDD433D826E /* SGSWMTSLayer.h */,
+				DA13573AFE0AD385335DC98588584ED3 /* SGSWMTSLayer.m */,
+				5862DE11A3DAAA1982E5C92C19C64AE8 /* SGSWMTSLayerInfo.h */,
+				FF4C40BBFD72B04EA5427BD04B2D6AA0 /* SGSWMTSLayerInfo.m */,
+				7CEFDA32D22185B1681C331AE9C296EA /* SGTileLayerHeader.h */,
+				10A6BDF11C3FEA11AFDF51D7A2CF4B40 /* SGTileLayerUtil.h */,
+				42FB7DAD4D3273AEDF0E7D59C38A021C /* SGTileLayerUtil.m */,
+				571AE9CA3529C2BB86BBBA9240FD4655 /* Southgis_BdWMTSLayerInfoDelegate.h */,
+				0C1BA9B1D7AED73FBA6E8C13D576C345 /* Southgis_BdWMTSLayerInfoDelegate.m */,
+				58FE33EE8115CA33F1226BAA5940D6E9 /* Southgis_BdWMTSLayerOperation.h */,
+				5C768EA32615303563AC67256A316592 /* Southgis_BdWMTSLayerOperation.m */,
+				F8EEBDF836FB9A64C520E2F701CB57FE /* Southgis_TiledServiceLayer.h */,
+				7FD543CA7569DC72AA6FB34D2BB94B54 /* Southgis_TiledServiceLayer.m */,
+				250A5E896EA298092F4FA237DF6462B9 /* Southgis_TiledServiceLayerInfo.h */,
+				2E269CD835DFF8EE8FF0FE0D4A941B6A /* Southgis_TiledServiceLayerInfo.m */,
+				D8E93CCCD0A31F933E96C53A0F0B888C /* Southgis_TiledServiceLayerInfoOperation.h */,
+				37711884301A09464872B2B90F3579E1 /* Southgis_TiledServiceLayerInfoOperation.m */,
+				5F402C2F3ED03F69385E59C9F3AF84C7 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h */,
+				6D531D507202613D43309073C6A52108 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m */,
+				61942047C52E9295508627C7DA1CDF92 /* Southgis_WMTSLayerOperation.h */,
+				D5856776EDA83C4C1EF0AC46B3BB209C /* Southgis_WMTSLayerOperation.m */,
+				9804137990C2592DA3FA9A8B6BC8AE2F /* SouthgisBaseTiledServiceLayer.h */,
+				86C8B13D358B496E26F1C4F5886C656B /* SouthgisBaseTiledServiceLayer.m */,
+				5E992CF40AE88DC6F69F35F963155856 /* SouthgisBdWMTSLayer.h */,
+				BC666C7C3F15581BCD9A9FEDCF110E52 /* SouthgisBdWMTSLayer.m */,
+				8F050C9B95623F8987FA5905F33221FD /* SouthgisTdt_LayerInfo.h */,
+				0F1C3F0F6F2DCC4AF0747F1BF031C0C4 /* SouthgisTdt_LayerInfo.m */,
+				23C6BAED5FCB76822C34258E9C4C82DB /* SouthgisTdt_TileLayer.h */,
+				5D874BC191B3129BEDF3DC3863D2CE1B /* SouthgisTdt_TileLayer.m */,
+				3212B09734F14792986BDF22CA6CF625 /* SouthgisTdtType.h */,
+				D005C4142D4109D2FC9F80E01B516CA8 /* SouthgisTdtType.m */,
+				60AA068B5523CF0D2EFAFB24223CE6CE /* SouthgisTianDiTuWMTSLayerInfoDelegate.h */,
+				36303D17577916723B1B21F9152BAC0D /* SouthgisTianDiTuWMTSLayerInfoDelegate.m */,
+				3FF99CF953B8A253FE5985624B51E301 /* SouthgisTiledMapHelper.h */,
+				4D338344B40FEEAFCAE33B48A3AED001 /* SouthgisTiledMapHelper.m */,
+				A43DEB8854DC0A15EDEE21FB260BCF24 /* Southigs_TiledServiceLayerOperation.h */,
+				65FC1A7476A3B18E3DB9F8293BAA3745 /* Southigs_TiledServiceLayerOperation.m */,
+				CB6D2A9F1A1E876EEF20CE1553672CEC /* Support Files */,
+			);
+			path = SGTileLayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4B0EB873C1E0B00F13899F6D30F78D4C /* Headers */ = {
+		11E02240931AA8373C68497E26463F35 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A862B954CF35E60D6329BED772D2B8 /* SGLocationObjC-umbrella.h in Headers */,
-				6773B60D5F1539D635099E21D1B121A1 /* SGLocationUtil.h in Headers */,
+				C76E0F36070768599AA18443C3B99C00 /* SGLocationObjC-umbrella.h in Headers */,
+				7F658ABD92EB9F5B6C7C6DEDF9FEB075 /* SGLocationUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8ADA7F96394D20C9C9CC0375143ED104 /* Headers */ = {
+		308E0DC37C785941AF5046372E57E09E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C843553680D6BA8B8A0BB2799C009C9B /* Pods-SGLocationObjC_Example-umbrella.h in Headers */,
+				FD442298030AF2010658694E8D1FB37F /* Pods-SGLocationObjC_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC5FF2F3B8B1CF8D048B20FB60A1AE70 /* Headers */ = {
+		84E0656F1C4B5BFE04D4E6C028DA9F71 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6662409976B69CCDA6BB294E61E2433D /* NSDictionary+YYAdd.h in Headers */,
-				25450121CD006E7B98D67D6427EB7A0D /* SGSWMTSInfo.h in Headers */,
-				9DF6D8C52B01588CDB256964FE6CB24C /* SGSWMTSLayer.h in Headers */,
-				47ED5673E186390C7F9CD87DB50ECBB4 /* SGSWMTSLayerInfo.h in Headers */,
-				796A2B113053486DF86F68E2C537264F /* SGTileLayer-umbrella.h in Headers */,
-				8D9FD221789E707761052C5B6F9CF612 /* SGTileLayerHeader.h in Headers */,
-				8D1B8F207F6B615158385B96B536EE45 /* SGTileLayerUtil.h in Headers */,
-				165DE43B81123A8B92B504506FEBB9A3 /* Southgis_BdWMTSLayerInfoDelegate.h in Headers */,
-				99D573E5AFF4E1A2454FAF08911CC132 /* Southgis_BdWMTSLayerOperation.h in Headers */,
-				124BEDB5EB016DB06096F80A19EBBCFB /* Southgis_TiledServiceLayer.h in Headers */,
-				28DC631463D6793F55C12214463AA9AA /* Southgis_TiledServiceLayerInfo.h in Headers */,
-				4C6CCB36BE37D063703DCFDBB34AF124 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h in Headers */,
-				CDF1947A43C7077D911C750880A95362 /* Southgis_TiledServiceLayerInfoOperation.h in Headers */,
-				98C8C9C7B488561E09878B4E09416EAC /* Southgis_WMTSLayerOperation.h in Headers */,
-				90721C46BF0FE4706E075AC28C740A3A /* SouthgisBaseTiledServiceLayer.h in Headers */,
-				A5C83E709A8D433255296CA4DA170CC5 /* SouthgisBdWMTSLayer.h in Headers */,
-				73F7DAB64235085B0726747AE2182D59 /* SouthgisTdt_LayerInfo.h in Headers */,
-				12B31C6638FF149DC37E2267422254DF /* SouthgisTdt_TileLayer.h in Headers */,
-				9E7EDFAF0274B936892751FC9BC00A6F /* SouthgisTdtType.h in Headers */,
-				3E6F0FC4FF4D54BB1492834E57A16293 /* SouthgisTianDiTuWMTSLayerInfoDelegate.h in Headers */,
-				8F776F3953DE6ECF0816EE823942A052 /* SouthgisTiledMapHelper.h in Headers */,
-				07D4F87EC7547175DBD17AD8148E85D2 /* Southigs_TiledServiceLayerOperation.h in Headers */,
+				BF5A7F4EE25645B27B20B0FC3A14A4F2 /* NSDictionary+YYAdd.h in Headers */,
+				8310F67D1197416D1F529A32D66A0217 /* SGGDLayer.h in Headers */,
+				AABCD9B8EFD45778205CFE29821479E0 /* SGGDLayerInfoDelegate.h in Headers */,
+				B181D6BACAFDF8C345A0F7CDA7C2D4EA /* SGGDLayerOperation.h in Headers */,
+				9FCA75FB305700EEF55F06A57DB82A5B /* SGSWMTSInfo.h in Headers */,
+				2A08CA1C69487D8A5864123C4B97300C /* SGSWMTSLayer.h in Headers */,
+				56E2FF26482B3DC141FD6C0EE97396EB /* SGSWMTSLayerInfo.h in Headers */,
+				06136819CEB02C08A36F637554F69358 /* SGTileLayer-umbrella.h in Headers */,
+				B50342A45EDD28A99A905E4464B39441 /* SGTileLayerHeader.h in Headers */,
+				2F0497464D30E29862FEB09B08433589 /* SGTileLayerUtil.h in Headers */,
+				AABD7416D509AFC0A18D1EC927075648 /* Southgis_BdWMTSLayerInfoDelegate.h in Headers */,
+				57D5E2B72AFD34CB93E56D747DC2A927 /* Southgis_BdWMTSLayerOperation.h in Headers */,
+				335927C05332D28727DB641AAFCF985A /* Southgis_TiledServiceLayer.h in Headers */,
+				5594296EE298A839CA7CA71D79B0F733 /* Southgis_TiledServiceLayerInfo.h in Headers */,
+				45588B1B2E3A8DD28990572DEC98F550 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.h in Headers */,
+				8E8E87BA9431E52D5CC3761C84F39826 /* Southgis_TiledServiceLayerInfoOperation.h in Headers */,
+				1D787215A3B3CFD457B2D3EEACE99414 /* Southgis_WMTSLayerOperation.h in Headers */,
+				18C9E50761D6380D78A4866B1D0AD40B /* SouthgisBaseTiledServiceLayer.h in Headers */,
+				608084D0F605194397BF083BFC534A02 /* SouthgisBdWMTSLayer.h in Headers */,
+				AB2282CA389CE6291BA58FD221A3E075 /* SouthgisTdt_LayerInfo.h in Headers */,
+				880DDF50AFD5DF8B690CBAF81A0B70A6 /* SouthgisTdt_TileLayer.h in Headers */,
+				69881475DB59C3530D73AC06C7B59AD0 /* SouthgisTdtType.h in Headers */,
+				6CB21860B4E8C3EE72070098DF3BB50B /* SouthgisTianDiTuWMTSLayerInfoDelegate.h in Headers */,
+				8CEF254A496E72E890974EB100734FCB /* SouthgisTiledMapHelper.h in Headers */,
+				671CB064F6480F04AB21FAF1FAE2AAC1 /* Southigs_TiledServiceLayerOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		948739078E5622B7DEFBA5FBCBDB83DA /* SGTileLayer */ = {
+		009F1B1841FDE6290A4F29A9AD3FB3A3 /* SGTileLayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2C95A3677139B630620F3AE8341EA3F /* Build configuration list for PBXNativeTarget "SGTileLayer" */;
+			buildConfigurationList = 64746B16CD3296A9E249EC1BB9AB2C9D /* Build configuration list for PBXNativeTarget "SGTileLayer" */;
 			buildPhases = (
-				24D4BC46D88DC65AB6E3919FBF5A6C27 /* Sources */,
-				90636A4A7F90AFB6CFE7CD95F8EF64F0 /* Frameworks */,
-				AC5FF2F3B8B1CF8D048B20FB60A1AE70 /* Headers */,
+				383852D6F6578181088C339A39037686 /* Sources */,
+				B794D0BB8A1B910166FB14D39D57AFD9 /* Frameworks */,
+				84E0656F1C4B5BFE04D4E6C028DA9F71 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -432,13 +453,13 @@
 			productReference = 22310527DC96A10BFEE15177ACA2F94E /* SGTileLayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AECE3571A3A407197954BCB41B345EB9 /* SGLocationObjC */ = {
+		9257BB43489D2505CCFEC36F5FEA450D /* SGLocationObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09D06324F5EFD80912EA319CECE29EF3 /* Build configuration list for PBXNativeTarget "SGLocationObjC" */;
+			buildConfigurationList = 9FAC070B4D9CBBD50599487635F911B3 /* Build configuration list for PBXNativeTarget "SGLocationObjC" */;
 			buildPhases = (
-				D3572D4C61D09EBA155A26E060E021BF /* Sources */,
-				03AD53D206D21ADC8F58147FD31ACCF1 /* Frameworks */,
-				4B0EB873C1E0B00F13899F6D30F78D4C /* Headers */,
+				E74931B9BA015CCD21EEF5BCA07D92F3 /* Sources */,
+				98C4FAA020E8B05C2531B21EC9741B2C /* Frameworks */,
+				11E02240931AA8373C68497E26463F35 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -449,19 +470,19 @@
 			productReference = 4D9CBF7D7DD95F110A7FCDD9556F1E14 /* SGLocationObjC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F4C365A4CA5E46E6B5270FAC058980CA /* Pods-SGLocationObjC_Example */ = {
+		B817BF2C6307FE14F2F3677C7A46BAD1 /* Pods-SGLocationObjC_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E0F66EAF9FEF59E919FA4B2F2CFFDD1 /* Build configuration list for PBXNativeTarget "Pods-SGLocationObjC_Example" */;
+			buildConfigurationList = 32577FC3139F031F09B4BC33ACE761D5 /* Build configuration list for PBXNativeTarget "Pods-SGLocationObjC_Example" */;
 			buildPhases = (
-				816DAEFF89EF9F17EB9C367290977A59 /* Sources */,
-				8BDEC99A6B148A19769BF7E9C12DB9C9 /* Frameworks */,
-				8ADA7F96394D20C9C9CC0375143ED104 /* Headers */,
+				A7AC0BCAE70653002AECAE76518B73C1 /* Sources */,
+				0297F4EA69829D31E7791A95516EA4DA /* Frameworks */,
+				308E0DC37C785941AF5046372E57E09E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A0F0D2F181CB6722271781D5181917A /* PBXTargetDependency */,
-				BD687EAB67C8EA4E58BBC5E62C375983 /* PBXTargetDependency */,
+				06E97092F1148C2A1EC904E07791BBC8 /* PBXTargetDependency */,
+				D2B55A36AFC8D6F191A2726FBEF8C17B /* PBXTargetDependency */,
 			);
 			name = "Pods-SGLocationObjC_Example";
 			productName = "Pods-SGLocationObjC_Example";
@@ -489,82 +510,87 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4C365A4CA5E46E6B5270FAC058980CA /* Pods-SGLocationObjC_Example */,
-				AECE3571A3A407197954BCB41B345EB9 /* SGLocationObjC */,
-				948739078E5622B7DEFBA5FBCBDB83DA /* SGTileLayer */,
+				B817BF2C6307FE14F2F3677C7A46BAD1 /* Pods-SGLocationObjC_Example */,
+				9257BB43489D2505CCFEC36F5FEA450D /* SGLocationObjC */,
+				009F1B1841FDE6290A4F29A9AD3FB3A3 /* SGTileLayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24D4BC46D88DC65AB6E3919FBF5A6C27 /* Sources */ = {
+		383852D6F6578181088C339A39037686 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04E6C0B2D0903A2604D5FF4D27E4585 /* NSDictionary+YYAdd.m in Sources */,
-				7720211F4A48018F6818F152B934CC9A /* SGSWMTSInfo.m in Sources */,
-				182240739C8CDACE4D29B75334C2FE7C /* SGSWMTSLayer.m in Sources */,
-				57ADFD5C82D27D6E726B3E44A330DE2A /* SGSWMTSLayerInfo.m in Sources */,
-				CDB5B84CDDFBDB78634B1EF55DA1E7ED /* SGTileLayer-dummy.m in Sources */,
-				63B8F0D79FFF0586192E80F4CEACD75C /* SGTileLayerUtil.m in Sources */,
-				86F106944F08B183E0A50A3FC2A47976 /* Southgis_BdWMTSLayerInfoDelegate.m in Sources */,
-				AF45E14B37831B94BF7D46D0F312A5F9 /* Southgis_BdWMTSLayerOperation.m in Sources */,
-				C0C700DF11CCE0B5F607E01B40936119 /* Southgis_TiledServiceLayer.m in Sources */,
-				B8570A494DBA59B94AE70F8158604A0B /* Southgis_TiledServiceLayerInfo.m in Sources */,
-				1992DF4832DBC92F7703CB20F27A6FE2 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m in Sources */,
-				FBA8EBF64B26CC2D9BEDA42019BBD161 /* Southgis_TiledServiceLayerInfoOperation.m in Sources */,
-				E30DE611E2E14D6D674967C7F92AA6A1 /* Southgis_WMTSLayerOperation.m in Sources */,
-				26C5F7EEDE0433F08EADEF14777E886C /* SouthgisBaseTiledServiceLayer.m in Sources */,
-				49252F591D48F7114907502570D3657F /* SouthgisBdWMTSLayer.m in Sources */,
-				AA1445DF8E13D3AB70694FD7725ED5A3 /* SouthgisTdt_LayerInfo.m in Sources */,
-				A8673CEA7DE21D40DA9D263AE91A689D /* SouthgisTdt_TileLayer.m in Sources */,
-				FBED2AE8E79F56789E33F51E554A2127 /* SouthgisTdtType.m in Sources */,
-				1CA6CA1900687AB14D422B463F16A79D /* SouthgisTianDiTuWMTSLayerInfoDelegate.m in Sources */,
-				8D0966AF6D6507153603AD4CD206DB1A /* SouthgisTiledMapHelper.m in Sources */,
-				8E40511DF71A2AA2C133B1CBBAF03B6C /* Southigs_TiledServiceLayerOperation.m in Sources */,
+				81FE28AB92A2F83102214FBCDF536668 /* NSDictionary+YYAdd.m in Sources */,
+				9F16F9B707EA2AAA1499E5D0D2464FE1 /* SGGDLayer.m in Sources */,
+				A449C47A3004E9DFB9F9F5208DA61B8F /* SGGDLayerInfoDelegate.m in Sources */,
+				9506D0ADB181174236962FF072527600 /* SGGDLayerOperation.m in Sources */,
+				5A9A30B4EC42062AFE3D417638E6B676 /* SGSWMTSInfo.m in Sources */,
+				E585299F347F9D522B657C49E71F6D23 /* SGSWMTSLayer.m in Sources */,
+				99889AC5B1F77146ADCF8B397300319D /* SGSWMTSLayerInfo.m in Sources */,
+				73FB0188A99FA7D70B381F81EC0DA9FD /* SGTileLayer-dummy.m in Sources */,
+				215B06A42653E5357B81C5EB9B0228CD /* SGTileLayerUtil.m in Sources */,
+				37E66EE54047AAF19C92C22C9431565E /* Southgis_BdWMTSLayerInfoDelegate.m in Sources */,
+				D14A65ABE55B0E1228524C79DC4A7D4B /* Southgis_BdWMTSLayerOperation.m in Sources */,
+				C518E3754B1E0A8CD02FAE9D703DC767 /* Southgis_TiledServiceLayer.m in Sources */,
+				739B27863B434D31C2330ED4ED90FF5F /* Southgis_TiledServiceLayerInfo.m in Sources */,
+				EFC26A5A36C608FE22234CD9E2FD56F5 /* Southgis_TiledServiceLayerInfoOperation+OfflineTiledInfo.m in Sources */,
+				13A0C2609FBFA66F8A341685B0B8E640 /* Southgis_TiledServiceLayerInfoOperation.m in Sources */,
+				A6CDDCD736C160D5AF00A2EC837FEF5C /* Southgis_WMTSLayerOperation.m in Sources */,
+				E131FCAF6B8A39393CD8430DC8A47B3A /* SouthgisBaseTiledServiceLayer.m in Sources */,
+				91525A43486364CBAF7E7C6E97EF0C24 /* SouthgisBdWMTSLayer.m in Sources */,
+				A4F7AACC7033844D80254488C34479B2 /* SouthgisTdt_LayerInfo.m in Sources */,
+				14CDA53B05A847515FEFBF238C40231E /* SouthgisTdt_TileLayer.m in Sources */,
+				A102918EBEBFC1EAA1781EF453020B8A /* SouthgisTdtType.m in Sources */,
+				90FEF0223C3C895D7427B28D5D4BD999 /* SouthgisTianDiTuWMTSLayerInfoDelegate.m in Sources */,
+				ED26F37F71EBBB287FB38BD4D160807B /* SouthgisTiledMapHelper.m in Sources */,
+				97F6524034F252B19F0F1674F10192B1 /* Southigs_TiledServiceLayerOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		816DAEFF89EF9F17EB9C367290977A59 /* Sources */ = {
+		A7AC0BCAE70653002AECAE76518B73C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82846C87AD0D42F01C28380C928358D /* Pods-SGLocationObjC_Example-dummy.m in Sources */,
+				CD842091797FF728BC26C3FBAEDB01CF /* Pods-SGLocationObjC_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3572D4C61D09EBA155A26E060E021BF /* Sources */ = {
+		E74931B9BA015CCD21EEF5BCA07D92F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD27047922FC13B0B9DEB8A217A7B31 /* SGLocationObjC-dummy.m in Sources */,
-				43E382496BD18ACE587571B49B607965 /* SGLocationUtil.m in Sources */,
+				434C2B19559586D351ACCCA6A5294AFB /* SGLocationObjC-dummy.m in Sources */,
+				46BEAF8A0596F4492E5C8D21267040C1 /* SGLocationUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A0F0D2F181CB6722271781D5181917A /* PBXTargetDependency */ = {
+		06E97092F1148C2A1EC904E07791BBC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SGLocationObjC;
-			target = AECE3571A3A407197954BCB41B345EB9 /* SGLocationObjC */;
-			targetProxy = D97F3F25C35E9EC6C3A52B592D19C0FD /* PBXContainerItemProxy */;
+			target = 9257BB43489D2505CCFEC36F5FEA450D /* SGLocationObjC */;
+			targetProxy = 88B054AE04AC9AC7F474E4908B1E75FD /* PBXContainerItemProxy */;
 		};
-		BD687EAB67C8EA4E58BBC5E62C375983 /* PBXTargetDependency */ = {
+		D2B55A36AFC8D6F191A2726FBEF8C17B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SGTileLayer;
-			target = 948739078E5622B7DEFBA5FBCBDB83DA /* SGTileLayer */;
-			targetProxy = 513E84435DA8FDA913517311FB83880A /* PBXContainerItemProxy */;
+			target = 009F1B1841FDE6290A4F29A9AD3FB3A3 /* SGTileLayer */;
+			targetProxy = 1FB8B042642927BFA6F6AA26E33A6172 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00174AB521FA2019527D117ACDE74B60 /* Release */ = {
+		007C8523AD7B4B26A17F84516093D5CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47F38EF11668BE08475BB804F288BD9C /* SGTileLayer.xcconfig */;
+			baseConfigurationReference = ECC93513B762CA46FBBD6718CD0511EE /* SGTileLayer.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -590,82 +616,13 @@
 			};
 			name = Release;
 		};
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		113B1E4F54D22F908F131632D1871B23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66A885D04D727E57D31D48529D6F95AE /* Pods-SGLocationObjC_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SGLocationObjC_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SGLocationObjC_Example/Pods-SGLocationObjC_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SGLocationObjC_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32B7D9E3F6125B3E8C2B393CD6647CAC /* Debug */ = {
+		72B3023F046F1920A9859F26443B0487 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D74BAE2E6BE2180DB956198AC3A6C20F /* Pods-SGLocationObjC_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -694,11 +651,164 @@
 			};
 			name = Debug;
 		};
-		569362D76A88723B9CDF42086E8D348A /* Release */ = {
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A5D7C0E1D6CC5F64FA9F5446AFC00A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A885D04D727E57D31D48529D6F95AE /* Pods-SGLocationObjC_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SGLocationObjC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGLocationObjC_Example/Pods-SGLocationObjC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SGLocationObjC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2166CC84E7A4CEBD9BD9F9EEEB05BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC93513B762CA46FBBD6718CD0511EE /* SGTileLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SGTileLayer/SGTileLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGTileLayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/SGTileLayer/SGTileLayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SGTileLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF812D7B7B6A4ED9370DF2DCBDCEC971 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAFED8A605A4EFE31C22CF978D697769 /* SGLocationObjC.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -723,83 +833,13 @@
 			};
 			name = Release;
 		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		D7C97CDA497D7C15D9459191DEE19CC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47F38EF11668BE08475BB804F288BD9C /* SGTileLayer.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SGTileLayer/SGTileLayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SGTileLayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/SGTileLayer/SGTileLayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SGTileLayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E8D9622D9297BBD99F309B58BDAE3B74 /* Debug */ = {
+		F0F5CB1CB6EB5A8A20A8B67616E73728 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAFED8A605A4EFE31C22CF978D697769 /* SGLocationObjC.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -827,38 +867,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09D06324F5EFD80912EA319CECE29EF3 /* Build configuration list for PBXNativeTarget "SGLocationObjC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8D9622D9297BBD99F309B58BDAE3B74 /* Debug */,
-				569362D76A88723B9CDF42086E8D348A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E0F66EAF9FEF59E919FA4B2F2CFFDD1 /* Build configuration list for PBXNativeTarget "Pods-SGLocationObjC_Example" */ = {
+		32577FC3139F031F09B4BC33ACE761D5 /* Build configuration list for PBXNativeTarget "Pods-SGLocationObjC_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32B7D9E3F6125B3E8C2B393CD6647CAC /* Debug */,
-				113B1E4F54D22F908F131632D1871B23 /* Release */,
+				72B3023F046F1920A9859F26443B0487 /* Debug */,
+				9A5D7C0E1D6CC5F64FA9F5446AFC00A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2C95A3677139B630620F3AE8341EA3F /* Build configuration list for PBXNativeTarget "SGTileLayer" */ = {
+		64746B16CD3296A9E249EC1BB9AB2C9D /* Build configuration list for PBXNativeTarget "SGTileLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7C97CDA497D7C15D9459191DEE19CC6 /* Debug */,
-				00174AB521FA2019527D117ACDE74B60 /* Release */,
+				A2166CC84E7A4CEBD9BD9F9EEEB05BCB /* Debug */,
+				007C8523AD7B4B26A17F84516093D5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FAC070B4D9CBBD50599487635F911B3 /* Build configuration list for PBXNativeTarget "SGLocationObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F5CB1CB6EB5A8A20A8B67616E73728 /* Debug */,
+				DF812D7B7B6A4ED9370DF2DCBDCEC971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

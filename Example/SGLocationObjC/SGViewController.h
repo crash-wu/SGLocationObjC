@@ -6,10 +6,16 @@
 //  Copyright (c) 2016 吴小星. All rights reserved.
 //
 
-@import UIKit;
-@import ArcGIS;
-@import SGLocationObjC;
-@import SGTileLayer;
+#import <SGLocationObjC/SGLocationUtil.h>
+#import <SGTileLayer/SGTileLayerUtil.h>
+#import <ArcGIS/ArcGIS.h>
+#import <UIKit/UIKit.h>
+#import "AGSPoint+Ext.h"
+//@import UIKit;
+//@import ArcGIS;
+//
+//@import SGTileLayer;
+
 
 
 @interface SGViewController : UIViewController

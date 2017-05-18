@@ -11,6 +11,15 @@
 //用户当前定位图层名称
 #define USERLOCATIONLAYER @"userlocationLayer"
 
+
+
+typedef void(^Success)(CLLocation *_Nullable location);
+
+typedef void(^Failed)(NSError  *_Nullable error);
+
+
+
+
 @interface SGLocationUtil()<CLLocationManagerDelegate>
 
 /**
@@ -43,6 +52,10 @@
 @property(nonatomic,strong ,nullable ) AGSGraphicsLayer *locationLayer;
 
 @property(nonatomic,strong,nullable) CLLocationManager *location;
+
+
+@property(nonatomic,copy) Success success;
+@property(nonatomic,copy) Failed failed;
 
 @end
 
@@ -121,6 +134,29 @@
 }
 
 
+/**
+ 获取当前位置
+ 
+ @param success 获取当前位置成功
+ @param failed 获取当前位置失败
+ */
+-(void)getUserLocationWith:
+(nonnull void (^)(CLLocation  *_Nullable location))success failed:
+(nonnull void(^)(NSError *_Nullable error))failed{
+    
+    self.success=success;
+    self.failed = failed;
+    if ([CLLocationManager locationServicesEnabled]) {
+        
+        self.location.delegate = self;
+        self.location.desiredAccuracy = kCLLocationAccuracyBest;
+        self.location.distanceFilter = 1000.0;
+        //[self.location requestAlwaysAuthorization];
+        [self.location requestWhenInUseAuthorization];
+        [self.location startUpdatingLocation];
+    }
+    
+}
 
 /**
  *  @author crash         crash_wu@163.com   , 16-09-05 16:09:29
@@ -149,7 +185,7 @@
                  (requestAlwaysAuthorization)]) {
                 
                 [self.location requestAlwaysAuthorization];
-
+                
                 
             }
             break;
@@ -169,11 +205,22 @@
 
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations{
     
+    
     [self showCurrentLocation:self.currentMapView andLocation:locations.lastObject];
+    
+    if (self.success) {
+        
+        self.success(locations.lastObject);
+    }
+    
+    
 }
 
 -(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{
     
+    if (self.failed) {
+        self.failed(error);
+    }
     
 }
 
@@ -190,7 +237,7 @@
  *  @return
  */
 - (nonnull AGSGraphicsLayer *)insertImageLocation:(nonnull AGSPoint *)point andSymbol:(nonnull NSString *)imageName{
-
+    
     
     AGSGraphicsLayer *symbolLayer = [[AGSGraphicsLayer alloc]init];
     AGSPictureMarkerSymbol *graphicSymbol = [[AGSPictureMarkerSymbol alloc]initWithImageNamed:imageName];

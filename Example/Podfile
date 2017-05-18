@@ -2,6 +2,6 @@ use_frameworks!
 
 target 'SGLocationObjC_Example' do
   pod 'SGLocationObjC', :path => '../SGLocationObjC.podspec'
-  pod 'SGTileLayer','~> 0.0.4'
+  pod 'SGTileLayer'
 
 end

@@ -10,6 +10,9 @@
 
 @interface SGViewController ()
 
+
+@property(nonnull,strong,nonatomic) AGSGraphicsLayer *locationGraphicsLayer;
+
 @end
 
 @implementation SGViewController
@@ -29,6 +32,9 @@
     [self.view addSubview:self.locationBtn];
     
     [[SGTileLayerUtil sharedInstance]loadTdtCGCS2000:self.mapView];
+    
+    self.locationGraphicsLayer = [[AGSGraphicsLayer alloc]init];
+    [self.mapView addMapLayer:self.locationGraphicsLayer];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,6 +45,29 @@
 
 -(void)location:(UIButton *)button{
     [[SGLocationUtil sharedInstance]getUserLocation:self.mapView andSymbolImage:@"终点"];
+    
+    
+    [[SGLocationUtil sharedInstance] getUserLocationWith:^(CLLocation * _Nullable location) {
+        
+        //先清除图层
+        [self.locationGraphicsLayer removeAllGraphics];
+        AGSPoint *point = [[AGSPoint alloc]initWithX:location.coordinate.longitude y:location.coordinate.latitude spatialReference:[[AGSSpatialReference alloc]initWithWKID:4326]];
+        point = [point gdWebpointToWSpoint];
+
+        AGSPictureMarkerSymbol *graphicSymbol = [[AGSPictureMarkerSymbol alloc]initWithImageNamed:@"终点"];
+
+        
+        AGSGraphic *graphic = [[AGSGraphic alloc]initWithGeometry:point symbol:graphicSymbol attributes:nil];
+        [self.locationGraphicsLayer addGraphic:graphic];
+        [self.locationGraphicsLayer refresh];
+        
+    } failed:^(NSError * _Nullable error) {
+        
+    }];
+
 }
+
+
+
 
 @end

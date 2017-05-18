@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		98794E551ECD941600D47F0E /* AGSPoint+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 98794E541ECD941600D47F0E /* AGSPoint+Ext.m */; };
 		98B2BF941D7D726300B867D1 /* 终点@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98B2BF931D7D726300B867D1 /* 终点@2x.png */; };
 		98B2BF961D7D73FB00B867D1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B2BF951D7D73FB00B867D1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		98794E531ECD941600D47F0E /* AGSPoint+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AGSPoint+Ext.h"; sourceTree = "<group>"; };
+		98794E541ECD941600D47F0E /* AGSPoint+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AGSPoint+Ext.m"; sourceTree = "<group>"; };
 		98B2BF931D7D726300B867D1 /* 终点@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "终点@2x.png"; sourceTree = "<group>"; };
 		98B2BF951D7D73FB00B867D1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		A5EF92DE8B66C5E5F8E9E6B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 				98B2BF951D7D73FB00B867D1 /* Launch Screen.storyboard */,
+				98794E531ECD941600D47F0E /* AGSPoint+Ext.h */,
+				98794E541ECD941600D47F0E /* AGSPoint+Ext.m */,
 			);
 			name = "Example for SGLocationObjC";
 			path = SGLocationObjC;
@@ -220,12 +225,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "SGLocationObjC_Tests" */;
 			buildPhases = (
-				F3E18E2E5B4FFDD1C26B4A00 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				9922D0E09FC37A9EEAC1F4A2 /* [CP] Embed Pods Frameworks */,
-				113C6D5A36B3BB186F945E8C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,21 +300,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		113C6D5A36B3BB186F945E8C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGLocationObjC_Tests/Pods-SGLocationObjC_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2F708E5A62F3C26B216C2813 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,7 +327,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		60B710136C409F38FC4D40BE /* [CP] Copy Pods Resources */ = {
@@ -358,36 +345,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGLocationObjC_Example/Pods-SGLocationObjC_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9922D0E09FC37A9EEAC1F4A2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SGLocationObjC_Tests/Pods-SGLocationObjC_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3E18E2E5B4FFDD1C26B4A00 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -397,6 +354,7 @@
 			files = (
 				6003F59E195388D20070C39A /* SGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SGViewController.m in Sources */,
+				98794E551ECD941600D47F0E /* AGSPoint+Ext.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
